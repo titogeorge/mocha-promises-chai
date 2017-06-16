@@ -1,0 +1,30 @@
+{
+  "name": "social",
+  "version": "1.0.0",
+  "description": "Test Application to demonstrate Unit Testing nodeJs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --colors --reporter spec",
+    "test_coverage": "nyc --reporter=html --reporter=text ./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "poc",
+    "test"
+  ],
+  "author": "Tito George",
+  "license": "WTFPL",
+  "dependencies": {
+    "es6-promise": "^4.1.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "mocha": "^3.4.2",
+    "nyc": "^11.0.2"
+  }
+}
