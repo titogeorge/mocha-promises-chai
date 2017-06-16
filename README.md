@@ -7,7 +7,6 @@ This code demonstrates the unit testing of JavaScript Functions using **mochajs*
 > - [MochaJS](https://mochajs.org/) - MochaJS is a feature-rich JavaScript test framework.
 > - [ChaiJS](http://chaijs.com/) - Chai is a BDD / TDD assertion library for node
 > - [chai-as-promised](https://github.com/domenic/chai-as-promised) - Chai as Promised extends Chai with a fluent language for asserting facts about promises.
-> - [node-fakeweb](https://github.com/ctide/fakeweb) - A simple tool that will intercept http(s) requests and respond with dummy data.
 
 ### Setup
 ```sh
